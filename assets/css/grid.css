@@ -393,7 +393,7 @@ no-gutters : no gutters each column
 
     .l-10 {
         flex: 0 0 83.33333%;
-        max-width: 83.33333%;
+        /* max-width: 83.33333%; */
     }
 
     .l-11 {

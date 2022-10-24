@@ -1217,7 +1217,7 @@ border-color: red green blue yellow */
     height: 38px;
     clip-path: polygon(0 0, 0 100%, 50% 80%, 100% 100%, 100% 0);
     -webkit-clip-path: polygon(0 0, 0 100%, 50% 80%, 100% 100%, 100% 0);
-    background-color: rgba(255, 220, 36, 0.85);
+    background-color: rgb(0 0 0 / 85%);
     text-align: center;
 }
 
