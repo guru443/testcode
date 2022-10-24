@@ -1,6 +1,6 @@
 //  const dataUrl = 'https://www.ltp110.tk/shopee/assets/js/db.json'
 
- const dataUrl = './assets/js/db.json'
+//  const dataUrl = './assets/js/db.json'
 
 fetch(dataUrl)
     .then(response => response.json())
@@ -19,7 +19,9 @@ fetch(dataUrl)
         .then(responsive)
         .then(handlePagination)
 }
-    
+
+
+
 // main product
 
 function renderItem(items) {
