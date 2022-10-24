@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(red, rgb(133, 209, 133), rgb(70, 70, 187));
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 375px;
+    height: 520px;
+    background: rgb(199, 197, 197);
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(red, green, blue, alpha);
+    padding: 20px;
+    overflow-y: scroll;
+
+
+}
+/* tắt thanh scroll bên phải  */
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    border: 1px solid rgba(82,74,235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+.container form i{
+    padding-left: 10px;
+}
+.product-list{
+    padding: 20px 0;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.product img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px ;
+}
+.product .p-details{
+    padding-left: 15px;
+}
+.product .p-details h2 {
+    font-size: 20px;
+    color: #1d1d1d;
+    
+}
+.product .p-details h3 {
+    font-size: 18px;
+    
+}
